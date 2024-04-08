@@ -1,0 +1,33 @@
+Pedido: 1
+Total Pedido: 398.00
+Saldo do Valor: 263.00
+Itens Pendentes:
+Número Item: 3, Quantidade Pendente: 10, Valor Pendente: 173.00
+Número Item: 1, Quantidade Pendente: 9, Valor Pendente: 90.00
+
+Pedido: 2
+Total Pedido: 818.00
+Saldo do Valor: 500.00
+Itens Pendentes:
+Número Item: 2, Quantidade Pendente: 25, Valor Pendente: 500.00
+
+Pedido: 3
+Total Pedido: 2667.00
+Saldo do Valor: 519.00
+Itens Pendentes:
+Número Item: 5, Quantidade Pendente: 6, Valor Pendente: 264.00
+Número Item: 2, Quantidade Pendente: 15, Valor Pendente: 255.00
+
+Pedido: 4
+Total Pedido: 6066.00
+Saldo do Valor: 4590.00
+Itens Pendentes:
+Número Item: 2, Quantidade Pendente: 51, Valor Pendente: 4590.00
+
+Pedido: 5
+Total Pedido: 2400.00
+Saldo do Valor: 420.00
+Itens Pendentes:
+Número Item: 6, Quantidade Pendente: 10, Valor Pendente: 159.00
+Número Item: 5, Quantidade Pendente: 6, Valor Pendente: 114.00
+Número Item: 7, Quantidade Pendente: 7, Valor Pendente: 147.00
