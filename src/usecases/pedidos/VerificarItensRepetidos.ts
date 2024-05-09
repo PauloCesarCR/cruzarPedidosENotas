@@ -21,7 +21,6 @@ export class VerificarItensRepetidos {
 
    
         if(mensagensDeErro.length > 0){
-            // Junta todas as mensagens de erro em uma única string para retorno
             return mensagensDeErro.join(' ');
         }
 
