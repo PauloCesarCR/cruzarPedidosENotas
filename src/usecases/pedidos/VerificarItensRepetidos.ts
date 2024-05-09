@@ -1,34 +1,30 @@
-import { IPedido } from "../../interfaces/IPedido";
+import { IPedido } from '../../interfaces/IPedido'
 
 export class VerificarItensRepetidos {
+    constructor() {}
 
-    constructor(){}
+    execute(pedidos: any): string {
+        let mensagensDeErro: string[] = []
+        const keys = Object.keys(pedidos[0])
 
-    execute(pedidos: any): string{
-
-        let mensagensDeErro: string[] = [];
-        const keys = Object.keys(pedidos[0]);
-
-        for(let i = 1; i < keys.length + 1; i++){
-
+        for (let i = 1; i < keys.length + 1; i++) {
             const it: IPedido[] = pedidos[0][i]
-            
-            if(this.temNumerosIguais(it.map((it: IPedido)=> it.numero_item))){
-                mensagensDeErro.push(`O pedido ${i} contém itens repetidos.`);
+
+            if (
+                this.temNumerosIguais(it.map((it: IPedido) => it.numero_item))
+            ) {
+                mensagensDeErro.push(`O pedido ${i} contém itens repetidos.`)
             }
         }
 
-
-   
-        if(mensagensDeErro.length > 0){
-            return mensagensDeErro.join(' ');
+        if (mensagensDeErro.length > 0) {
+            return mensagensDeErro.join(' ')
         }
 
-        return 'Todos os pedidos estão corretos.';
-
+        return 'Todos os pedidos estão corretos.'
     }
 
     private temNumerosIguais(array) {
-        return new Set(array).size !== array.length;
+        return new Set(array).size !== array.length
     }
 }
