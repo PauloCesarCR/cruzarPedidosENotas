@@ -20,3 +20,16 @@ do valor (soma dos valores correspondentes ao saldo de quantidade de cada item
 pendentes) e uma lista dos itens pendentes, na qual cada item pendente exibe o número do
 item e o saldo da quantidade (quanto faltou de quantidade do produto para que o item não
 ficasse pendente).
+
+## Pastas de Notas e Pedidos para teste.
+
+Pedidos: https://drive.google.com/drive/folders/1NI60bgHSnWgzH-xkQZgMAPINrSF0uzhR?usp=drive_link
+Notas: https://drive.google.com/drive/folders/1pDSBFsvzIWg3ZY8ecms5LkblOB5JQLxM?usp=sharing
+
+## Para executar, basta trocar o caminho mocado no FileRepository
+
+
+
+
+
+
